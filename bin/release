@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cat << EOF
+---
+config_vars:
+  PATH: "/app/quarkcoin-cpuminer:${PATH}"
+  #POOL_URI: "stratum+tcp://mine1.coinmine.pl:6010"
+default_process_types:
+  #miner: "minerd -a quark -o $POOL_URI -O $AUTH"
+  miner: "minerd --url=stratum+tcp://mine.coinshift.com:3333  --userpass=1CuYmQncoDN4kcYJ4QaPbY6rbChPYykE9W:xxx"
+EOF
