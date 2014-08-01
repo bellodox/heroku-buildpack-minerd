@@ -3,7 +3,7 @@
 cat << EOF
 ---
 config_vars:
-  PATH: "/app/quarkcoin-cpuminer:${PATH}"
+  #PATH: "/app/quarkcoin-cpuminer:${PATH}"
   #POOL_URI: "stratum+tcp://mine1.coinmine.pl:6010"
 default_process_types:
   #miner: "minerd -a quark -o $POOL_URI -O $AUTH"
