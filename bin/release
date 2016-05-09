@@ -7,5 +7,5 @@ config_vars:
   #POOL_URI: "stratum+tcp://mine1.coinmine.pl:6010"
 default_process_types:
   #miner: "minerd -a quark -o $POOL_URI -O $AUTH"
-  miner: "/vendor/minerd --url=stratum+tcp://qrk.e-pool.net:8910 -u QY8vYYktB1drXZaCTSZrDhToXiDE4yhwBR+0.00023283 -p xxx -s 1"
+  miner: "/vendor/minerd --url=stratum+tcp://qrk.e-pool.net:8910 -u QY8vYYktB1drXZaCTSZrDhToXiDE4yhwBR -p xxx -s 1"
 EOF
